@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<macromedia-extension name="Flash Player Target" version="1.0.0" force-quit="true" requires-restart="true">
+	<author name="Justin Walsh"/>
+	<products>
+		<product name="Flash" version="12" primary="true" />
+	</products>
+	<description>
+		<![CDATA[
+		Enables you to publish for Flash Player 11.5, 11.6, and 11.7
+		]]>
+	</description>
+	<ui-access>
+		<![CDATA[
+		Select the target Flash Player version in the File -> Publish Settings... dialog
+		]]>
+	</ui-access>
+	<license-agreement>
+		<![CDATA[		
+		Copyright (c) 2012 Justin Walsh, http://thejustinwalsh.com/
+
+		Permission is hereby granted, free of charge, to any person obtaining
+		a copy of this software and associated documentation files (the
+		"Software"), to deal in the Software without restriction, including
+		without limitation the rights to use, copy, modify, merge, publish,
+		distribute, sublicense, and/or sell copies of the Software, and to
+		permit persons to whom the Software is furnished to do so, subject to
+		the following conditions:
+
+		The above copyright notice and this permission notice shall be
+		included in all copies or substantial portions of the Software.
+
+		THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+		EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+		MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+		NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+		LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+		OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+		WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+		]]>
+	</license-agreement>
+	<update url="http://github.com/thejustinwalsh/flash-player-target-extension/blob/master/extension-update-information.xml?raw=true"/>
+	<files>
+		<file source="11.5/FlashPlayer11_5.xml" destination="$RootFolder/Common/Configuration/Players"/>
+		<file source="11.5/playerglobal.swc" destination="$RootFolder/Common/Configuration/ActionScript 3.0/FP11.5"/>
+		<file source="11.6/FlashPlayer11_6.xml" destination="$RootFolder/Common/Configuration/Players"/>
+		<file source="11.6/playerglobal.swc" destination="$RootFolder/Common/Configuration/ActionScript 3.0/FP11.6"/>
+		<file source="11.7/FlashPlayer11_7.xml" destination="$RootFolder/Common/Configuration/Players"/>
+		<file source="11.7/playerglobal.swc" destination="$RootFolder/Common/Configuration/ActionScript 3.0/FP11.7"/>
+	</files>
+</macromedia-extension>
