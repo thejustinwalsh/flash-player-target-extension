@@ -59,7 +59,7 @@
 			This Agreement shall be governed by the laws of the State of Arizona, and the parties hereby irrevocably consent to jurisdiction and venue in the state and federal courts located in Arizona without regard to any conflicts of laws principles that would require the application of the laws of another jurisdiction. In any action or suit to enforce any right or remedy under this Agreement or to interpret any provision of this Agreement, the prevailing party shall be entitled to recover its costs, including, without limitation, reasonable attorneys’ fees. The United Nations Convention on Contracts for the International Sale of Goods does not apply to this Agreement.
 		]]>
 	</license-agreement>
-	<update url="http://github.com/thejustinwalsh/flash-player-target-extension/blob/master/extension-update-information.xml?raw=true"/>
+	<update url="http://github.com/thejustinwalsh/flash-player-target-extension/blob/master/assets/extension-update-information.xml?raw=true"/>
 	<files>
 		<file source="11.5/FlashPlayer11_5.xml" destination="$RootFolder/Common/Configuration/Players"/>
 		<file source="11.5/playerglobal.swc" destination="$RootFolder/Common/Configuration/ActionScript 3.0/FP11.5"/>
