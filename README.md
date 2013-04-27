@@ -7,6 +7,9 @@ CS6 is lacking the ability to manage flash player versions and this extension is
 ## Building
 Open flash-player-target.mxi in the Adobe Extension Manager and save the extension to the location of your choice. I find it easiest to open the mxi file by double clicking it.
 
+## Download
+[Download on Adobe Exchange](http://bit.ly/15JgGA7 "Flash Player Target")
+
 ## Installation
 Double click flash-player-target.zxp and follow the instructions in the Adobe Extension Manager. Once installed you will find all the latest versions of the flash player are available to you in the `Target` drop-down located on the `File -> Publish Settings...` dialog.
 
